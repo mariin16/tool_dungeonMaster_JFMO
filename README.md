@@ -1,16 +1,18 @@
-# React + Vite
+# Tool Dungeon Master para DnD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+link vercel: https://dungeonmasterjfmo.vercel.app/
+APK disponible en releases
 
-Currently, two official plugins are available:
+# Funciones
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+3 Pestañas disponibles para asistir al DM de la partida: 
 
-## React Compiler
+- Bestiario: Para ver toda la información de los enemigos en un solo lugar
+- Loot generator: Para randomizar el botín que los jugadores consiguen
+- Dados: Una serie de simulador de dados de distintos lados
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Creación
 
-## Expanding the ESLint configuration
+Usando los conocimientos vistos en clase de React y Vite, se creó un proyecto que fue estilizado con Tailwind. Se usó la API abierta DnD 5e para poder sacar la información del juego. Usando funciones con random para las secciones de recompensas y dados.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Para el release y build, se subió a Github y posteriormente se hizo el deploy a Vercel. Después se hizo el proceso de construir y lanzar el APK mediante Capacitor y android studio. 
