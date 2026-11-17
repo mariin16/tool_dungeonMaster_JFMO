@@ -1,7 +1,7 @@
 # Tool Dungeon Master para DnD
 
-link vercel: https://dungeonmasterjfmo.vercel.app/
-APK disponible en releases
+- link vercel: https://dungeonmasterjfmo.vercel.app/
+- APK disponible en releases
 
 # Funciones
 
